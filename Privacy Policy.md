@@ -1,6 +1,6 @@
 # Statement
 
-We respect the privacy of your information. We provide this explanation about our information practices as a show of our commitment to protect your privacy. This policy describes the types of information we may collect from you or that you may provide when using Universal or servers where Universal is present and our practices for collecting, using, maintaining, protecting, and disclosing that information.
+We respect the privacy of your information. We provide this explanation about our information practices as a show of our commitment to protect your privacy. This policy describes the types of information we may collect from you or that you may provide when using Astroz or servers where Astroz is present and our practices for collecting, using, maintaining, protecting, and disclosing that information.
 
 Please read this policy carefully to understand our policies and practices regarding your information and how we treat it. If you do not agree with our policies and practices, your choice is not to use our website or bot. By adding Universal to your Discord server, you agree that you have read and agree to this policy.
 
@@ -54,7 +54,7 @@ Ask server mod(s) to remove the logged message or just wait for 24 hours, after 
 
 # Security
 
-We take steps to ensure data provided from Universal is protected from misuse, loss, alteration, or unauthorized access. However, no Internet-based system can be declared fully secure and error free. 
+We take steps to ensure data provided from Astroz is protected from misuse, loss, alteration, or unauthorized access. However, no Internet-based system can be declared fully secure and error free. 
 
 # HOW CAN I CONTACT YOU?
 
