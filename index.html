@@ -1,0 +1,472 @@
+<!doctype html>   
+<html lang=en>
+<head> 
+<title>Astroz</title>
+<link href="https://Astroz.notherhacker.repl.co/Astroz.png" rel=canonical>
+<meta content=Astroz property=og:title>
+<meta content="The official website for Astroz, the best Discord security bot available for free. It is an anti nuke, anti raid, anti spam and lots of more features that comes with advanced moderation. Astroz also has very useful utility commands ." property=og:description>
+<!doctype html>
+<html lang=en>
+<meta charset=utf-8>
+<meta content="width=device-width,initial-scale=1" name=viewport>
+<meta content="Astroz" name=subject>
+<meta content="Astroz, the best Discord security bot available for free. It is an anti nuke, anti raid, anti spam and lots of more features that comes with advanced moderation. Astroz also has very useful utility commands." name=description>
+<meta content="Astroz, bot, Astrozbot, discord, discordbot, antinuke, anti nuke, anti-nuke, antiraid, anti raid, anti, raid, nuke, antispam, anti-spam, spam, security, anti wizz, wiz, nuked, raided, spammed, antiselfbots, anti-selfbots, selfbot, selfbots, discord raids, raids, nuking, raiding, spamming" name=keywords>
+<meta content="index, follow" name=robots>
+<meta content=#1f88ff name=theme-color>
+<meta content=64 property=og:image:width>
+<meta content=64 property=og:image:height>
+<link href=/Astroz.png rel=apple-touch-icon>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<link href=https://cdn.jsdelivr.net/npm/fomantic-ui@nightly/dist/semantic.min.css rel=stylesheet type=text/css>
+<script src=https://cdn.jsdelivr.net/npm/fomantic-ui@nightly/dist/semantic.min.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.min.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<script src=//cdnjs.cloudflare.com/ajax/libs/jquery.lazy/1.7.9/jquery.lazy.plugins.min.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<script src=/header@0.0.4.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<script src=/helpers-timers@1.2.5.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<script src="https://www.googletagmanager.com/gtag/js?id=G-Y3RZ74KRNR" async type="72e2f230d597999ea7415511-text/javascript"></script>
+<script type="72e2f230d597999ea7415511-text/javascript">function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-Y3RZ74KRNR")</script>
+<script src=https://cdnjs.cloudflare.com/ajax/libs/lozad.js/1.16.0/lozad.min.js type="72e2f230d597999ea7415511-text/javascript"></script>
+<link href=/generalHeader@0.1.6.css rel=stylesheet type=text/css>
+<link href=https://fonts.gstatic.com/ rel=preconnect crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel=stylesheet>
+<style>
+#hellobar-bar {
+        width: 100%;
+        margin: 0;
+        height: 30px;
+        display: table;
+        font-size: 17px;
+        font-weight: 400;
+        padding: .33em .5em;
+        -webkit-font-smoothing: antialiased;
+        color: white;
+        
+    /*background: rgb(195,33,33);
+    background: linear-gradient(0deg, rgba(195,33,33,1) 0%, rgba(253,72,45,1) 100%);*/
+    background: rgb(152, 28, 12);
+    background: linear-gradient(35deg, rgb(152, 33, 12) 0%, rgb(246, 58, 58) 100%);
+        box-shadow: 0 1px 3px 2px rgba(0,0,0,0.15);
+    }
+    #hellobar-bar.regular {
+        height: 30px;
+        font-size: 14px;
+        padding: .2em .5em;
+    }
+    .hb-content-wrapper {
+        text-align: center;
+        text-align: center;
+        position: relative;
+        display: table-cell;
+        vertical-align: middle;
+    }
+    .hb-content-wrapper p {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    .hb-text-wrapper {
+        margin-right: .67em;
+        display: inline-block;
+        line-height: 1.3;
+    }
+    .hb-text-wrapper .hb-headline-text {
+        font-size: 1em;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    #hellobar-bar .hb-cta {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 5px 0;
+        color: black;
+    /*background: rgb(251,215,0);
+    background: linear-gradient(35deg, rgba(251,215,0,1) 0%, rgba(246,127,58,1) 100%);*/
+    background: rgb(228,255,242);
+    background: linear-gradient(35deg, rgba(228,255,242,1) 0%, rgb(250, 121, 121) 100%);
+        border-color: #af2222
+    }
+    .hb-cta-button {
+        opacity: 1;
+        color: #fff;
+        display: block;
+        cursor: pointer;
+        line-height: 1.5;
+        max-width: 22.5em;
+        text-align: center;
+        position: relative;
+        border-radius: 3px;
+        white-space: nowrap;
+        margin: 1.75em auto 0;
+        text-decoration: none;
+        padding: 0;
+        overflow: hidden;
+    }
+    .hb-cta-button .hb-text-holder {
+        border-radius: inherit;
+        padding: 5px 15px;
+    }
+    .hb-close-wrapper {
+        display: table-cell;
+        width: 1.6em;
+    }
+    .hb-close-wrapper .icon-close {
+        font-size: 14px;
+        top: 15px;
+        right: 25px;
+        width: 15px;
+        height: 15px;
+        opacity: .3;
+        color: #000;
+        cursor: pointer;
+        position: absolute;
+        text-align: center;
+        line-height: 15px;
+        z-index: 1000;
+        text-decoration: none;
+    }
+</style>
+<div class="full-screen ui inverted secondary menu" style="visibility: hidden;display:none;">
+<div class="header item">
+<img style="border-radius: 100%" href="https://Astroztech.notherhacker.repl.co/" src=/Astroz.png alt="Astroz Logo" height=40px width=40px>
+</div>
+<a class=item href=/>
+<i class="icon home"></i> Home
+</a>
+<div class=item>
+<a class="ui inverted secondary disabled button" href=/dashboard>
+<i class="icon edit outline"></i> Dashboard
+</a>
+<div class="ui orange mini label" style="position: absolute;bottom:-2px;right: 3px;">LOGIN
+</div>
+</div>
+<a class=item href=/status>
+<i class="icon wifi"></i> Status
+</a>
+<a class=item href=/support>
+<i class="icon headphones"></i> Support
+</a>
+<div class="ui dropdown item" id=moreDrop>
+<i class="icon plus square"></i> More
+<i class="dropdown icon"></i>
+<div class=menu>
+<a class=item href="https://github.com/NotHerHacker"</a>
+<a class=item href=/team>Team</a>
+<div class=item style="background: #3a6186;
+            background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+            background: linear-gradient(to right, #89253e, #3a6186);" id=upvoteWick>Upvote Astroz</div>
+<a class=item href="https://top.gg/bot/1012627088232165376" rel="noopener noreferrer" target=_blank>Review Astroz</a>
+</div>
+</div>
+<div class="right menu">
+<div class=item>
+<a class="ui orange animated button" href=/premium>
+<div class="visible content"><i class="icon gem"></i> Premium</div>
+<div class="hidden content">
+<i class="icon gem"></i>
+</div>
+</a>
+</div>
+<div class=item>
+<a class="ui primary button" href=/wauth/login>
+<i class="discord icon"></i> Login via Discord</a>
+</div>
+</div>
+</div>
+<div class="small-screen ui inverted secondary menu" style=display:flex;>
+<div class="header item" style="left: 15px;">
+<img style="border-radius: 100%" src=/Astroz.png alt="Astroz Logo" height=40px width=40px>
+</div>
+<div class="right menu">
+<div class="header item" style="right: 15px;">
+<div class="ui dropdown" style="color: rgb(59, 59, 59)" id=mobileHeaderMenu>
+<i class="bars white icon" style="color: white !important;"></i>
+<div class=menu style="right: 0;left: auto;">
+<a class=item href=/>
+<i class="icon home"></i> Home
+</a>
+<a class=item href=/status>
+<i class="icon wifi"></i> Status
+</a>
+<a class=item href=/support>
+<i class="icon headphones"></i> Support
+</a>
+<a class=item href=/premium style="color: white !important; 
+                                        background: #f12711 !important;
+                                        background: -webkit-linear-gradient(to right, #f5af19, #f12711) !important;
+                                        background: linear-gradient(to right, #f5af19, #f12711) !important;">
+<i class="icon gem"></i> Premium
+</a>
+<a class=item href=/wauth/login>
+<i class="discord icon"></i> Login via Discord</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="ui basic modal" id=upvote-modal>
+<div class="ui placeholder segment" style="color: #f7f7f7 !important;background: #3a6186;
+            background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+            background: linear-gradient(to right, #89253e, #3a6186);">
+<div class="ui four column very relaxed stackable grid">
+<div class="middle aligned column" style="text-align: center;justify-content: center; justify-items: center;margin: 0 auto;">
+<p style="font-size: 25px;">
+TOP.GG
+</p>
+<a class="ui big button" href=https://top.gg/bot/1012627088232165376>
+<i class="icon thumbs up"></i>Upvote
+</a>
+</div>
+<div class="middle aligned column" style="text-align: center;justify-content: center; justify-items: center;margin: 0 auto;">
+<p style="font-size: 25px;">
+DBL
+</p>
+<a class="ui big button" href=https://top.gg/bot/1012627088232165376
+<i class="icon thumbs up"></i>Upvote
+</a>
+</div>
+<div class="middle aligned column" style="text-align: center;justify-content: center; justify-items: center;margin: 0 auto;">
+<p style="font-size: 25px;">
+BOTLIST.SPACE
+</p>
+<a class="ui big button" href=https://top.gg/bot/1012627088232165376
+<i class="icon thumbs up"></i>Upvote
+</a>
+</div>
+<div class="middle aligned column" style="text-align: center;justify-content: center; justify-items: center;margin: 0 auto;">
+<p style="font-size: 25px;">
+BFD
+</p>
+<a class="ui big button" href=https://top.gg/bot/1012627088232165376
+<i class="icon thumbs up"></i>Upvote
+</a>
+</div>
+</div>
+</div>
+</div>
+<div class="ui small longer modal" id=getIntelModalDiv>
+<i class="close icon"></i>
+<div class=header id=getIntelModalTitle>
+</div>
+<div class="scrolling content" id=getIntelModalContent>
+</div>
+<div class=actions>
+<div class="ui animated approve secondary button" tabindex=0>
+<div class="visible content">Understood</div>
+<div class="hidden content">
+<i class="icon check square"></i>
+</div>
+</div>
+</div>
+</div>
+<link href=/home@0.1.1.css rel=stylesheet type=text/css>
+<script src=/home@0.0.5.js type="72e2f230d597999ea7415511-text/javascript"></script>
+</head>
+<body>
+<div class=mainfbox>
+<div class=left>
+<h1 class=majorTitle>Astroz, the best Discord security bot!</h1>
+<h2 style="text-align: left;">
+<img class="ui avatar image mainfboxI" src="https://cdn.discordapp.com/emojis/660829325313966112.png?v=1" alt="Anti Nuke">
+<span class=mainfboxF>
+Anti Nuke
+</span>
+<span class=mainfboxFSUB>
+Secure your server and stop anyone from trying to nuke / wizz it!
+</span>
+<br>
+<img class="ui avatar image mainfboxI" src="https://cdn.discordapp.com/emojis/660816163621830666.png?v=1" alt="Anti Raid &amp; Spam">
+<span class=mainfboxF>
+Anti Raid &amp; Spam
+</span>
+<span class=mainfboxFSUB>
+Block raiders and mass spammers efficiently!
+</span>
+<br>
+<img class="ui avatar image mainfboxI" src="https://cdn.discordapp.com/emojis/660790094877163532.png?v=1" alt=Verification>
+<span class=mainfboxF>
+Verification
+</span>
+<span class=mainfboxFSUB>
+Adding Soon
+</span>
+<br>
+<img class="ui avatar image mainfboxI" src="https://cdn.discordapp.com/emojis/660829323434917888.png?v=1" alt=Moderation>
+<span class=mainfboxF>
+Moderation
+</span>
+<span class=mainfboxFSUB>
+Have the best advanced yet easy moderation commands and an auto-mod at your service
+</span>
+<br>
+<img class="ui avatar image mainfboxI" src="https://cdn.discordapp.com/emojis/660789592160600103.png?v=1" alt="More features">
+<span class=mainfboxF>And lots of more!</span>
+</h2>
+<div class="ui big buttons" style="text-align: center;justify-content: center;margin-top:15px">
+<a class="ui animated fade green button" href="https://discord.com/oauth2/authorize?client_id=1012627088232165376&permissions=2113268958&scope=bot">
+<div class="visible content"> <i class="icon plus"></i>Add Astroz</div>
+<div class="hidden content">
+<i class="icon plus" style="margin: 0px;"></i>
+</div>
+</a>
+</div>
+</div>
+<div class=right>
+<img height=300px alt="Astroz King Logo" src=Astroz.png width=300px id=mainlogo>
+</div>
+</div>
+<h1 class=majorTitle>
+Reviews (<span class="ui inverted default blue text" id=reviewsPercentage>
+98% Positive
+</span>)
+</h1>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="72e2f230d597999ea7415511-|49" defer=""></script><script>(function(){var js = "window['__CF$cv$params']={r:'7421feb6594f8e90',m:'enSsn0BXQgbkogv5TRCCrqLXfUf3OXBiWy0Pp8EifPo-1661741593-0-ASyd0OU/BAnzmBvDXTWyCX1NFvH9IILdjjp1fQRZllPIlremo/h2+nJ/6a4BQtUBQ/Cx0FfJlGBrr7fSL95mePJVyWoOu5x5bjSg+2MLnksPAMMSvPpkak/yYAN9xfwVCA==',s:[0xa676e1d3f3,0x2b58d1dbbf],u:'/cdn-cgi/challenge-platform/h/b'};var now=Date.now()/1000,offset=14400,ts=''+(Math.floor(now)-Math.floor(now%offset)),_cpo=document.createElement('script');_cpo.nonce='',_cpo.src='/cdn-cgi/challenge-platform/h/b/scripts/alpha/invisible.js?ts='+ts,document.getElementsByTagName('head')[0].appendChild(_cpo);";var _0xh = document.createElement('iframe');_0xh.height = 1;_0xh.width = 1;_0xh.style.position = 'absolute';_0xh.style.top = 0;_0xh.style.left = 0;_0xh.style.border = 'none';_0xh.style.visibility = 'hidden';document.body.appendChild(_0xh);function handler() {var _0xi = _0xh.contentDocument || _0xh.contentWindow.document;if (_0xi) {var _0xj = _0xi.createElement('script');_0xj.nonce = '';_0xj.innerHTML = js;_0xi.getElementsByTagName('head')[0].appendChild(_0xj);}}if (document.readyState !== 'loading') {handler();} else if (window.addEventListener) {document.addEventListener('DOMContentLoaded', handler);} else {var prev = document.onreadystatechange || function () {};document.onreadystatechange = function (e) {prev(e);if (document.readyState !== 'loading') {document.onreadystatechange = prev;handler();}};}})();</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"7421feb6594f8e90","version":"2022.8.0","r":1,"token":"cb88b769c56a4183a609a309176d94e3","si":100}' crossorigin="anonymous"></script>
+</body></script>
+</body>
+<footer>
+<style>
+</style>
+<footer style=margin-top:100px;>
+<div class="ui placeholder segment" style="color: #f7f7f7 !important;
+background: #3C3B3F;
+background: -webkit-linear-gradient(to right, rgb(17, 17, 17), rgb(17, 17, 17));
+background: linear-gradient(to right, rgb(17, 17, 17), rgb(17, 17, 17));">
+<div class="ui three column very relaxed stackable grid" style="margin: 15px;padding:10px;">
+<div class="middle aligned column" style="text-align: center;justify-content: center; justify-items: center;margin: 0 auto;">
+<h1>Astroz</h1>
+<p><i class="icon copyright outline"></i> Copyright Astroz 2022-2033. All rights reserved.
+<br> Astroz is not affiliated with Discord.
+</p>
+<div>
+<a class="ui vertical animated small button" href="https://discord.com/oauth2/authorize?client_id=1012627088232165376&permissions=2113268958&scope=bot" style="display:inline-block;margin: 5px;">
+<div class="visible content">
+<i class="icon hand pointer"></i>
+Invite
+</div>
+<div class="hidden content">
+<i class="icon hand pointer"></i>
+</div>
+</a>
+<a class="ui vertical animated small button" href="https://discord.gg/jkop" style="display:inline-block;margin: 5px;">
+<div class="visible content">
+<i class="icon comment alternate"></i>
+Review
+</div>
+<div class="hidden content">
+<i class="icon comment alternate"></i>
+</div>
+</a>
+<a class="ui vertical animated small button" href="https://discord.gg/jkop" style="display:inline-block;margin: 5px;">
+<div class="visible content">
+<i class="icon envelope outline"></i>
+Contact
+</div>
+<div class="hidden content">
+<i class="icon envelope outline"></i>
+</div>
+</a>
+</div>
+</div>
+<div class="middle aligned column" style="text-align: left;justify-content: left; justify-items: left;margin: 0 auto;">
+<h1>Useful Links</h1>
+<div class="ui inverted relaxed animated list">
+<a class=item href="https://discord.com/oauth2/authorize?client_id=1012627088232165376&permissions=2113268958&scope=bot" style="font-weight: normal;">
+<i class="icon plus square outline"></i>
+<div class="middle aligned content">
+<div class=header>
+Add Astroz
+</div>
+<div class=description>
+Add Astroz to your server
+</div>
+</div>
+</a>
+<a class=item href=https://discord.gg/D78YMq279a style="font-weight: normal;">
+<i class="icon file outline"></i>
+<div class="middle aligned content">
+<div class=header>
+Documentation
+</div>
+<div class=description>
+Learn how to use Astroz Bot efficiently
+</div>
+</div>
+</a>
+<a class=item href="https://discord.gg/D78YMq279a" style="font-weight: normal;">
+<i class="icon question circle outline"></i>
+<div class="middle aligned content">
+<div class=header>
+Join Support Server
+</div>
+<div class=description>
+Join Astroz&#39;s lounge and enjoy your time there.
+</div>
+</div>
+</a>
+<a class=item href=/premium style="font-weight: normal;">
+<i class="icon gem outline"></i>
+<div class="middle aligned content">
+<div class=header>
+Premium
+</div>
+<div class=description>
+Rock Astroz Premium in your server and get the best security possible
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="middle aligned column" style="text-align: left;justify-content: left; justify-items: left;margin: 0 auto;">
+<h1>Terms & Policies</h1>
+<div class="ui inverted relaxed animated list">
+<a class=item href=/tos style="font-weight: normal;">
+<i class="icon ruler"></i>
+<div class="middle aligned content">
+<div class=header>
+Terms Of Service
+</div>
+<div class=description>
+Read what you need to respect when using Astroz.
+</div>
+</div>
+</a>
+<a class=item href=/privacy style="font-weight: normal;">
+<i class="icon file user secret"></i>
+<div class="middle aligned content">
+<div class=header>
+Privacy Policy
+</div>
+<div class=description>
+What do we do with your information.
+</div>
+</div>
+</a>
+<a class=item href=/refund style="font-weight: normal;">
+<i class="icon money check"></i>
+<div class="middle aligned content">
+<div class=header>
+Refund Policy
+</div>
+<div class=description>
+Check out our stance when it comes to refunding our premium services.
+</div>
+</div>
+</a>
+<a class=item href=/cookies style="font-weight: normal;">
+<i class="icon cookie"></i>
+<div class="middle aligned content">
+<div class=header>
+Cookies Policy
+</div>
+<div class=description>
+Learn what does Astroz do with cookies.
+</div>
+</div>
+</a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script type="72e2f230d597999ea7415511-text/javascript"></script>
+</footer>
+</html>
